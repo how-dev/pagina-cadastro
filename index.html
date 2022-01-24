@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">CADASTRE-SE</h1>
+        <p class="cabecalho__texto">Já é de casa? Faça <a href="/">Login</a></p>
+    </header>
+    <main class="principal">
+        <section class="principal__preencher">
+            <form class="formulario">
+                <p class="formulario__texto">Seu nome completo</p>
+                <input type="text" class="personalizar formulario__nome" placeholder="Nome">
+                <p class="formulario__texto">Seu telefone</p>
+                <input type="number" class="personalizar formulario__numero" placeholder="Numero">
+                <p class="formulario__texto">Seu CPF</p>
+                <input type="number" class="personalizar formulario__cpf" placeholder="000.000.000.00">
+                <p class="formulario__texto">Seu email</p>
+                <input type="email" class="personalizar formulario__email" placeholder="Email">
+                <p class="formulario__texto">Confirmar email</p>
+                <input type="email" class="personalizar formulario__email" placeholder="Confirme email">
+                <p class="formulario__texto">Sua senha</p>
+                <input type="password" class="personalizar formulario__senha" placeholder="Senha">
+                <p class="formulario__texto">Confirmar senha</p>
+                <input type="password" class="personalizar formulario__senha" placeholder="Confirme senha">
+        </section>
+        <section class="selecao">
+            <form class="opcoes">
+                <div class="personalizar__selecao selecao__opcoes">
+                <input type="checkbox" class="selecao__opcao1">
+                    <p class="opcao1__texto">Eu aceito que a empresa XXX use 
+                        meus dados para fins promocionais
+                        e de interesse comercial</p>
+                </div>
+                <div class="selecao__opcoes">
+                <input type="checkbox" class="selecao__opcao2">
+                    <p class="opcao2__texto">Li e aceito os Termos de Uso</p>
+                </div>
+                <div class="selecao__opcoes">
+                <input type="checkbox" class="selecao__opcao3">
+                    <p class="opcao3__texto">Quero receber notícias pelo Whatsapp 
+                        e Email</p>
+                </div>
+            </form>
+            <input type="submit" class="opcoes__botao" value="Cadastrar">
+        </section>
+    </main>
+</body>
+</html>

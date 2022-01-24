@@ -1,0 +1,99 @@
+:root {
+    --cor-fundo-geral: #FFEAEC;
+    --cor-fundo-login: #FFFFFF;
+    --cor-rosa-escuro: #F39A9D;
+    --estilo-fonte-geral: arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    background-color: var(--cor-fundo-geral);
+    font-family: var(--estilo-fonte-geral);
+}
+.cabecalho {
+    background-color: var(--cor-fundo-geral);
+    text-align: center;
+}
+    .cabecalho__titulo {
+        color: var(--cor-rosa-escuro);
+        font-weight: 530;
+        margin-bottom: 22px;
+        font-size: 55px;
+    }
+    .cabecalho__texto {
+        color: var(--cor-rosa-escuro);
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .cabecalho__texto a {
+        color: var(--cor-rosa-escuro);
+        margin-top: 0;
+    }
+.principal {
+    background-color: var(--cor-fundo-login);
+    border-radius: 50px 50px 0 0px;
+    margin: 0;
+    padding: 20px 0 25px 0 ;
+}
+    .principal__preencher {
+        width: 100%;
+    }
+.formulario{
+    width: 94%;
+    margin: 0 auto;
+}
+    .formulario__texto {
+        color: var(--cor-rosa-escuro);
+        font-size: 18px;
+    }
+.personalizar {
+    border-radius: 20px;
+    background-color: var(--cor-fundo-geral);
+    border: 0;
+    width: 95%;
+    height: 50px;
+    padding-left: 16px;
+    outline: none;
+    font-size: 15px;
+}
+.selecao {
+   color: var(--cor-rosa-escuro)
+}
+    .selecao__opcoes {
+        display: flex;
+        align-items: center;
+        height: 35px;
+
+    }
+    .personalizar__selecao {
+        margin-top: 30px;
+    }
+        .selecao__opcao1, .selecao__opcao2, .selecao__opcao3 {
+            border: 3px solid var(--cor-rosa-escuro);
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    .opcoes__botao {
+        color: var(--cor-fundo-login);
+        background-color: var(--cor-rosa-escuro);
+        width: 95%;
+        display: block;
+        margin: 20px auto 0 auto;
+        border-radius: 50px;
+        border: 0;
+        height: 60px;
+        font-size: 50px; 
+        cursor: pointer;
+    }
+    @media (min-width:716px){
+        .principal {
+             width: 50%;
+             margin: 0 auto;
+             border-radius: 50px;
+        }
+        body {
+             padding-bottom: 70px;
+        }
+        .selecao__opcoes {
+            margin-left: 60px;
+        }
+   }
