@@ -84,6 +84,9 @@ body {
         font-size: 50px; 
         cursor: pointer;
     }
+    .opcao__botao--link {
+        text-decoration: none;
+    }
     @media (min-width:716px){
         .principal {
              width: 50%;
